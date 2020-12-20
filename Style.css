@@ -1,0 +1,279 @@
+
+<body>
+<style>
+body{
+ font-family:sans-serif;
+ color: #113338;
+ line-height: 27px;
+ 
+}
+
+.purple-color{
+ color:#8845f4;
+}
+
+.half-width{
+ width: 50%;
+ float: left;
+}
+
+.side-img{
+ width:33%;
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+
+ margin-left: 34%;
+ border-radius : 22px;
+ margin-top:100px;
+ height: 170px;
+
+}
+
+.primary-btn{
+
+ color:white;
+ background-color : black;
+ padding: 10px 50px;
+ border-radius: 7px;
+ text-decoration: none;
+ margin-left: 15%;
+ 
+}
+h1{
+ font-size: 2.5em;
+}
+h2{
+color:#096C94;
+}
+.container{
+ padding-left:5%;
+ display: inline-block;
+ border: 1px solid #D3E7EA;
+ border-radius : 2px;
+ background-color : #DFEEEC;
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+ 
+}
+
+.nav-bar{
+ background-color: #113338;
+ color: white;
+ width:100%;
+border-radius : 2px;
+}
+
+
+  
+.nav-img{
+ border: 1px solid #D3E7EA;
+ border-radius : 4px;
+ background-color:  #E2E2E9;
+ height: 200px;
+ box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+
+ 
+}
+.container2{
+ 
+ height:2000px;
+ width:100%;
+ border-radius : 2px;
+}
+
+.container1{
+ border:1px solid #D3E7EA;
+ height:140px;
+ width:100%;
+ border-radius : 5px;
+background-color : white;
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+
+}
+.container3{
+ border:1px solid #4E719E ;
+ height:250px;
+border-radius : 5px;
+ background-color: white;
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+
+}
+.container4{
+  height:100px;
+ border: 1px solid #4E719E;
+ background-color : white;
+border-radius : 5px;
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+
+}
+.container5{
+  height:140px;
+ border: 1px solid #4E719E;
+ background-color : white;
+border-radius : 5px;
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+
+ 
+}
+.container6{
+  height:170px;
+ border: 1px solid #4E719E;
+ background-color : white;
+border-radius : 5px;
+ box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+
+}
+
+.footer{
+ color:white;
+ background-color:#113338 ;
+ height:110px;
+ width:100%;
+ border-radius : 2px;
+ text-decoration:none;
+}
+a{
+text-decoration :none;
+ color:white;
+}
+.btn{
+ background-color: #163132;
+ border-radius :2px;
+}
+
+p{
+padding-left:10px;
+
+}
+.btn1{
+ background-color :#096C94;
+ padding-left:10px;
+ margin-left:30px;
+ color: white;
+ border-radius :10px;
+}
+.btn2{
+background-color : #1660B5;
+ padding-left:  4px;
+ margin-left:37%;
+ color: white;
+ border-radius :10px;
+font-size:18px;
+ height:40px;
+}
+.btn3{
+background-color :#2B6ABD;
+ padding-left:  4px;
+ margin-left:10%;
+ margin-top:35px;
+ margin-right:5px;
+ color: white;
+ border-radius :10px;
+ font-size:20px;
+ height: 60px;
+ width:150px ;
+}
+.btn4{
+ background-color :#096C94;
+ padding: 8px ;
+ margin-left:32%;
+ 
+ color: white;
+ border-radius :8px;
+ font-size:18px;
+ height: 21px;
+ width:130px ;
+}
+
+/* contact From styling */
+
+.form-container {
+         margin: 20px;
+         padding: 15px;
+         background: #173459;
+         color: white;
+         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+     
+ }
+      .input-cnt {
+         display: flex; /* display the icon and the input in a line */
+         margin-bottom: 15px;
+      }
+      .input-cnt:last-child {
+         margin-bottom: 0px;
+      }
+      .input-cnt > i {
+         min-width: 40px; /* set a minimum width for the icon */
+         padding: 10px; /* make sure the icon is centered vertically */
+         text-align: center; /* horizontally center the icon */
+         background: lightgrey;
+         border-top-left-radius: 20px;
+         border-bottom-left-radius: 20px;
+         color: #0076ff;
+      }
+      /* change styles when focused */
+      .input-cnt:hover > i {
+         background: #0076ff;
+         color: white;
+      }
+      /* style the input and textarea */
+      .input-cnt > input[type="text"], .input-cnt > textarea {
+         outline: none;
+         border: none;
+         padding: 10px;
+         border: 1px solid lightgrey;
+         border-top-right-radius: 20px;
+         border-bottom-right-radius: 20px;
+         width: 100%;
+      }
+      /* center textarea icon and increase size */
+      .textarea-icon {
+         padding: 60px 10px !important; /* top and bottom paddings are set to 60px */
+      }
+      /* style the submit button */
+      .input-cnt > input[type="submit"] {
+         border: none;
+         border-radius: 20px;
+         outline: none;
+         width: 75%;
+         margin: 0 auto;
+         font-size: 105%;
+         padding: 8px;
+         color: #0076ff;
+         background: white;
+         transition-duration: .5s;
+      }
+      /* add a hover effect for the submit button */
+      .input-cnt > input[type="submit"]:hover {
+         color: white;
+         background: #0076ff;
+      }
+
+
+ /* img card styl */
+
+.card {
+ float:center;
+ margin-top: 30px;
+ border-radius : 28px;
+         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+         box-sizing: border-box;
+         width: 150px;
+ height: 200px;
+         font-family: sans-serif;
+      }
+      .card-text {
+         padding: 10px;
+         font-size: 18px;
+         text-align: center;
+ color: #096C94;
+      }
+      .card > img {
+ margin-top:14px;
+         max-width: 100%;
+         height: 130px;
+ border-radius :10px;
+box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+     
+      }
+
+</style>
+</body>
